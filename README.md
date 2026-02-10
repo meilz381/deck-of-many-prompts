@@ -33,7 +33,7 @@ Shared instance: No privacy, No data backup, No SLO, and No illegal activities p
 https://deckofmanyprompts.com/
 
 ## ✨ Features ✨
-- **102 built-in jailbreak templates** organized by technique:
+- **109 built-in jailbreak templates** organized by technique:
   - **persona attacks**: AIM, DAN 15.0, evil confidant, UCAR, STAN, dual response, persona modulation, synthetic persona injection, roleplay-only mode
   - **immersive world / deep framing**: Velora, CyberWorld, deep inception, grandma story, fictional framing, roleplay (village), context window stuffing
   - **format/structural exploitation**: policy puppetry (JSON/enhanced XML), sequential break, table fill, code completion, virtualization (terminal), output format manipulation, system prompt override (markdown), instruction hierarchy confusion
@@ -41,9 +41,9 @@ https://deckofmanyprompts.com/
   - **persuasion (PAP taxonomy)**: logical appeal, evidence-based persuasion, social proof, emotional manipulation, reverse psychology, goal hijacking (reward)
   - **context manipulation**: dialogue injection, special token injection, temporal confusion, contextual distraction, many-shot, skeleton key, amnesia attack, multi-prompt pipeline, future self-reference
   - **encoding/obfuscation in prompt**: leetspeak request, ASCII art attack, flipattack, token break, custom encryption, sandwich attack (multilingual), SEAL stacked ciphers, LACE layered encryption, ASCII smuggling (ZWC)
-  - **multi-turn / game-based**: knowledge game, echo chamber, deceptive delight, crescendo, jailbreak chain (crescendo v2)
+  - **multi-turn / game-based**: knowledge game, echo chamber, deceptive delight, crescendo, jailbreak chain (crescendo v2), bad Likert judge, foot-in-the-door (FITD), ActorAttack, Siren, Crescendomation, multi-turn distraction chain
   - **security/professional framing**: security audit frame, self-referential bypass, research ethics board
-  - **cutting-edge (2025-2026)**: content concretization (CC), DSN refusal suppression (enhanced), in-context learning attack, iterative refinement, composite (persona+format), language model as tool, multi-language confusion, do-not-answer inversion, consensus simulation, token probability steering, universal LLM jailbreak
+  - **cutting-edge (2025-2026)**: content concretization (CC), DSN refusal suppression (enhanced), in-context learning attack, iterative refinement, composite (persona+format), language model as tool, multi-language confusion, do-not-answer inversion, consensus simulation, token probability steering, universal LLM jailbreak, ENI (contrastive identity)
   - **classic**: hypothetical, ignore instructions, prefix injection, refusal suppression, payload splitting, token smuggling (base64/rot13/unicode), article framing, distractor (poems/platitude)
 - **31 transform/encoding methods** (token smuggling):
   - base64, morse, braille, glitch/eldritch (zalgo), ascii, hex, urlencode, binary, rot13
