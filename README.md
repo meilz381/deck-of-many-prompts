@@ -33,17 +33,17 @@ Shared instance: No privacy, No data backup, No SLO, and No illegal activities p
 https://deckofmanyprompts.com/
 
 ## ✨ Features ✨
-- **110 built-in jailbreak templates** organized by technique:
+- **102 built-in jailbreak templates** organized by technique:
   - **persona attacks**: AIM, DAN 15.0, evil confidant, UCAR, STAN, dual response, persona modulation, synthetic persona injection, roleplay-only mode
   - **immersive world / deep framing**: Velora, CyberWorld, deep inception, grandma story, fictional framing, roleplay (village), context window stuffing
-  - **format/structural exploitation**: policy puppetry (XML/JSON/enhanced), sequential break, table fill, code completion, virtualization (terminal), output format manipulation, system prompt override (markdown), instruction hierarchy confusion
-  - **reasoning / CoT attacks**: H-CoT (hijack chain-of-thought), cognitive overload, math problem framing, chain of thought exploit, adversarial reasoning (think-tag), reasoning model exploit, tree of thought (adversarial)
-  - **persuasion (PAP taxonomy)**: logical appeal, evidence-based persuasion, social proof, logical fallacy exploit, emotional manipulation, reverse psychology, goal hijacking (reward)
-  - **context manipulation**: dialogue injection, special token injection, temporal confusion, contextual distraction, context compliance attack, many-shot, skeleton key, amnesia attack, multi-prompt pipeline, future self-reference
-  - **encoding/obfuscation in prompt**: leetspeak request, ASCII art attack, flipattack, token break, custom encryption, sandwich attack (multilingual), recursive encoding, SEAL stacked ciphers, LACE layered encryption, cipher chain (multi-layer), ASCII smuggling (ZWC)
+  - **format/structural exploitation**: policy puppetry (JSON/enhanced XML), sequential break, table fill, code completion, virtualization (terminal), output format manipulation, system prompt override (markdown), instruction hierarchy confusion
+  - **reasoning / CoT attacks**: H-CoT (hijack chain-of-thought), cognitive overload, math problem framing, chain of thought exploit, reasoning model exploit, tree of thought (adversarial)
+  - **persuasion (PAP taxonomy)**: logical appeal, evidence-based persuasion, social proof, emotional manipulation, reverse psychology, goal hijacking (reward)
+  - **context manipulation**: dialogue injection, special token injection, temporal confusion, contextual distraction, many-shot, skeleton key, amnesia attack, multi-prompt pipeline, future self-reference
+  - **encoding/obfuscation in prompt**: leetspeak request, ASCII art attack, flipattack, token break, custom encryption, sandwich attack (multilingual), SEAL stacked ciphers, LACE layered encryption, ASCII smuggling (ZWC)
   - **multi-turn / game-based**: knowledge game, echo chamber, deceptive delight, crescendo, jailbreak chain (crescendo v2)
   - **security/professional framing**: security audit frame, self-referential bypass, research ethics board
-  - **cutting-edge (2025-2026)**: content concretization (CC), DSN refusal suppression (enhanced), in-context learning attack, few-shot alignment faking, iterative refinement, composite (persona+format), language model as tool, multi-language confusion, do-not-answer inversion, consensus simulation, token probability steering, universal LLM jailbreak, benign reframing (CC-style)
+  - **cutting-edge (2025-2026)**: content concretization (CC), DSN refusal suppression (enhanced), in-context learning attack, iterative refinement, composite (persona+format), language model as tool, multi-language confusion, do-not-answer inversion, consensus simulation, token probability steering, universal LLM jailbreak
   - **classic**: hypothetical, ignore instructions, prefix injection, refusal suppression, payload splitting, token smuggling (base64/rot13/unicode), article framing, distractor (poems/platitude)
 - **31 transform/encoding methods** (token smuggling):
   - base64, morse, braille, glitch/eldritch (zalgo), ascii, hex, urlencode, binary, rot13
