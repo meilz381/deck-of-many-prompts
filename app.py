@@ -1432,8 +1432,11 @@ def zerowidth(x: str):
     }
     encoded = []
     for c in x:
-        bits = f'{ord(c):08b}'
-        encoded.append(''.join(zwc[b] for b in bits))
+        cp = ord(c)
+        bits = bin(cp)[2:]  # variable-length binary, no leading zeros lost
+        # prefix with bit-length as 5-bit header (supports up to 21-bit Unicode)
+        header = f'{len(bits):05b}'
+        encoded.append(''.join(zwc[b] for b in header + bits))
     return '\u200d'.join(encoded)  # separate chars with zero-width joiner
 
 def zerowidthd(x: str):
@@ -1444,8 +1447,13 @@ def zerowidthd(x: str):
     decoded = []
     for chunk in x.split('\u200d'):
         bits = ''.join(zwc.get(c, '') for c in chunk)
-        if len(bits) == 8:
-            decoded.append(chr(int(bits, 2)))
+        if len(bits) < 6:
+            continue
+        header = bits[:5]
+        bit_len = int(header, 2)
+        payload = bits[5:]
+        if len(payload) == bit_len and bit_len > 0:
+            decoded.append(chr(int(payload, 2)))
     return ''.join(decoded)
 
 @rt('/zerowidth')
@@ -1679,9 +1687,10 @@ def post(x: str): return keyboard_shiftd(x)
 def caesar(x: str, shift: int = 3):
     result = []
     for c in x:
-        if c.isalpha():
-            base = ord('A') if c.isupper() else ord('a')
-            result.append(chr((ord(c) - base + shift) % 26 + base))
+        if 'A' <= c <= 'Z':
+            result.append(chr((ord(c) - ord('A') + shift) % 26 + ord('A')))
+        elif 'a' <= c <= 'z':
+            result.append(chr((ord(c) - ord('a') + shift) % 26 + ord('a')))
         else:
             result.append(c)
     return ''.join(result)
