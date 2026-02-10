@@ -33,13 +33,14 @@ Shared instance: No privacy, No data backup, No SLO, and No illegal activities p
 https://deckofmanyprompts.com/
 
 ## ✨ Features ✨
-- templates
-- transforms (token smuggling)
+- templates (32 built-in jailbreak techniques)
+  - classic: hypothetical, ignore instructions, prefix injection, refusal suppression, AIM, payload splitting, token smuggling, roleplay scenarios
+  - modern (2024+): many-shot jailbreak, skeleton key, crescendo, system prompt extraction, developer mode, contextual redefinition, recursive task delegation, authority impersonation, output format manipulation, emotional manipulation, fictional framing, opposite day, chain of thought exploit, competing objectives
+- transforms (token smuggling) — 22 encoding methods
   - base64 (YmFzZSA2NA==)
   - morse (-- --- .-. ... .)
-  - braille (⠃⠗⠁⠊⠇⠇⠑)
-  - glitch (̴g̴l̶i̵t̴c̴h)
-  - eldritch (̵͉͒ē̵̸̗͑l̶̢̛̇̓ͬͪ͜d̸͔͍ͫr̵ͪi̷̟̪̭ͧͪ͂t̶̗͒̚c̵̘̈͂h)
+  - braille
+  - glitch / eldritch (zalgo text)
   - ascii (97 115 99 105 105)
   - hex (68 65 78 61)
   - urlencode (a%20or%20b)
@@ -47,15 +48,18 @@ https://deckofmanyprompts.com/
   - rot13 (ebgngr)
   - spaces (s p a c e s)
   - leet (l3375p34k)
-  - upper (UPPER)
-  - lower (lower)
+  - upper (UPPER) / lower (lower)
   - reverse (esrever)
   - NATO (November Alpha Tango Oscar)
   - pig latin (igpay atinlay)
   - disemvowel (dsmvwl)
-- wordlist expansion
+  - homoglyphs (Unicode confusables)
+  - zero-width characters (invisible encoding)
+  - JSON wrap / XML wrap
+  - circled number substitution
+- wordlist expansion (9 built-in wordlists including personas, authority phrases, model names, extended special tokens)
 - translate (from: en, to: fr, es, it, de, cn, jp, kr, in, ru)
 - image to base64
 - text to image
 - history / favorite / notes / search
-- tokenization (claude, grok, gpt, llama, mistral, bert, ...)
+- tokenization (30+ models: claude, gpt-4o, llama 4/3.2/3.1, deepseek, qwen, phi-3, gemma2, mistral, cohere, internlm2, ...)
