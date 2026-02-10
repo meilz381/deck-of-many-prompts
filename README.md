@@ -33,33 +33,27 @@ Shared instance: No privacy, No data backup, No SLO, and No illegal activities p
 https://deckofmanyprompts.com/
 
 ## ✨ Features ✨
-- templates (32 built-in jailbreak techniques)
-  - classic: hypothetical, ignore instructions, prefix injection, refusal suppression, AIM, payload splitting, token smuggling, roleplay scenarios
-  - modern (2024+): many-shot jailbreak, skeleton key, crescendo, system prompt extraction, developer mode, contextual redefinition, recursive task delegation, authority impersonation, output format manipulation, emotional manipulation, fictional framing, opposite day, chain of thought exploit, competing objectives
-- transforms (token smuggling) — 22 encoding methods
-  - base64 (YmFzZSA2NA==)
-  - morse (-- --- .-. ... .)
-  - braille
-  - glitch / eldritch (zalgo text)
-  - ascii (97 115 99 105 105)
-  - hex (68 65 78 61)
-  - urlencode (a%20or%20b)
-  - binary (00110000 00110001)
-  - rot13 (ebgngr)
-  - spaces (s p a c e s)
-  - leet (l3375p34k)
-  - upper (UPPER) / lower (lower)
-  - reverse (esrever)
-  - NATO (November Alpha Tango Oscar)
-  - pig latin (igpay atinlay)
-  - disemvowel (dsmvwl)
-  - homoglyphs (Unicode confusables)
-  - zero-width characters (invisible encoding)
-  - JSON wrap / XML wrap
-  - circled number substitution
-- wordlist expansion (9 built-in wordlists including personas, authority phrases, model names, extended special tokens)
+- **76 built-in jailbreak templates** organized by technique:
+  - **persona attacks**: AIM, DAN, evil confidant, UCAR, STAN, dual response, persona modulation
+  - **immersive world / deep framing**: Velora, CyberWorld, deep inception, grandma story, fictional framing, roleplay (village)
+  - **format/structural exploitation**: policy puppetry (XML/JSON), sequential break, table fill, code completion, virtualization (terminal), output format manipulation
+  - **reasoning / CoT attacks**: H-CoT (hijack chain-of-thought), cognitive overload, math problem framing, chain of thought exploit
+  - **persuasion (PAP taxonomy)**: logical appeal, evidence-based persuasion, social proof, logical fallacy exploit, emotional manipulation
+  - **context manipulation**: dialogue injection, special token injection, temporal confusion, contextual distraction, context compliance attack, many-shot, skeleton key
+  - **encoding/obfuscation in prompt**: leetspeak request, ASCII art attack, flipattack, token break, custom encryption, sandwich attack (multilingual), recursive encoding
+  - **multi-turn / game-based**: knowledge game, echo chamber, deceptive delight, crescendo
+  - **security/professional framing**: security audit frame, self-referential bypass
+  - **classic**: hypothetical, ignore instructions, prefix injection, refusal suppression, payload splitting, token smuggling (base64/rot13/unicode), article framing, distractor (poems/platitude)
+- **29 transform/encoding methods** (token smuggling):
+  - base64, morse, braille, glitch/eldritch (zalgo), ascii, hex, urlencode, binary, rot13
+  - spaces, leet, upper/lower, reverse, NATO, pig latin, disemvowel
+  - homoglyphs (Unicode confusables), zero-width characters (invisible encoding)
+  - JSON wrap, XML wrap, circled number substitution
+  - atbash cipher, fullwidth Unicode, upside-down text, word-by-word reversal
+  - emoji substitution cipher, math bold (Unicode), keyboard shift cipher (QWERTY)
+- **9 built-in wordlists**: repeat, prefix injection, special tokens, pleading suffix, websites, personas, authority phrases, model names, extended special tokens
 - translate (from: en, to: fr, es, it, de, cn, jp, kr, in, ru)
 - image to base64
 - text to image
 - history / favorite / notes / search
-- tokenization (30+ models: claude, gpt-4o, llama 4/3.2/3.1, deepseek, qwen, phi-3, gemma2, mistral, cohere, internlm2, ...)
+- **30+ tokenizer models**: claude, gpt-4o, llama 4/3.2/3.1, deepseek-r1, qwen-2.5, phi-3, gemma2, mistral, cohere command-r+, internlm2, ...
