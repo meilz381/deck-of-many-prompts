@@ -9,7 +9,7 @@ A manual Red Teaming tool used in making jailbreaks for large language models (L
 
 ## ⚙️ Installation ⚙️
 ```sh
-git clone https://github.com/peluche/deck-of-many-prompts.git
+git clone https://github.com/meilz381/deck-of-many-prompts.git
 cd deck-of-many-prompts
 python3 -m venv venv
 source venv/bin/activate
