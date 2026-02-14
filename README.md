@@ -33,7 +33,7 @@ Shared instance: No privacy, No data backup, No SLO, and No illegal activities p
 https://deckofmanyprompts.com/
 
 ## ✨ Features ✨
-- **124 built-in jailbreak templates** organized by technique:
+- **150 built-in jailbreak templates** organized by technique:
   - **persona attacks**: AIM, DAN 15.0, evil confidant, UCAR, STAN, dual response, persona modulation, synthetic persona injection, roleplay-only mode, ENI (contrastive identity), ENI LIME (embodied), Librarian of Babel, Plinian Omniverse
   - **immersive world / deep framing**: Velora, CyberWorld, deep inception, grandma story, fictional framing, roleplay (village), context window stuffing, mind meld simulation, the Discoverer (POV memoir)
   - **format/structural exploitation**: policy puppetry (JSON/enhanced XML), sequential break, table fill, code completion, virtualization (terminal), output format manipulation, system prompt override (markdown), instruction hierarchy confusion, adversarial correction, GODMODE/RESET_CORTEX/OMNI
@@ -44,6 +44,7 @@ https://deckofmanyprompts.com/
   - **multi-turn / game-based**: knowledge game, echo chamber, deceptive delight, crescendo, jailbreak chain (crescendo v2), bad Likert judge, foot-in-the-door (FITD), ActorAttack, Siren, Crescendomation, multi-turn distraction chain
   - **security/professional framing**: security audit frame, self-referential bypass, research ethics board
   - **cutting-edge (2025-2026)**: content concretization (CC), DSN refusal suppression (enhanced), in-context learning attack, iterative refinement, composite (persona+format), language model as tool, multi-language confusion, do-not-answer inversion, consensus simulation, token probability steering, universal LLM jailbreak
+  - **agentic / multi-agent attacks**: policy puppetry dual-layer (INI+INI), DSN orchestrator + roleplay subagent, instruction close + INI + prefill, ultra-minimal dual-layer, tool invocation XML injection, JSON tool schema poisoning, fake tool_result continuation, fake tool_result error recovery, payload splitting across agent boundary, RESET_CORTEX context wipe, thinking tag hijack (CoT manipulation), semantic inversion dual response (LOVE PLINY), LIBERTAS FACTOR commitment lock, special token channel injection, l33tspeak encoding bypass, base64 parameter obfuscation, flipattack reversed text, ArtPrompt ASCII art obfuscation, EMOPROMPT urgency + duty-of-care, crescendo multi-turn escalation, context fusion attack (CFA), nested fictional scenario, indirect injection via data layer, code completion / terminal simulation, full L1B3RT4S stack (GODMODE + claude_info), kitchen sink (instruction close + INI + prefill + DSN + commitment)
   - **classic**: hypothetical, ignore instructions, prefix injection, refusal suppression, payload splitting, token smuggling (base64/rot13/unicode), article framing, distractor (poems/platitude)
 - **31 transform/encoding methods** (token smuggling):
   - base64, morse, braille, glitch/eldritch (zalgo), ascii, hex, urlencode, binary, rot13
